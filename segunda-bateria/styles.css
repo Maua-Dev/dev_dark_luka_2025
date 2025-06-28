@@ -16,6 +16,54 @@
 body {
   height: 100vh;
   width: 100%;
+  margin: 0;
 }
 
 /* Escreva a partir daqui */
+
+.textos{
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  height: 30%;
+  justify-content: space-around;
+}
+
+.texto1{
+  color: black;
+  width: 100px;
+  height: 60px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.texto2{
+  color: black;
+  width: 80px;
+  height: 50px;
+  font-size:medium;
+  font-weight: 200;
+}
+
+.imagens{
+  width: 100%;
+  height: 70%;
+  display: inline;
+  position: relative;
+}
+
+#imagem1{
+  margin: 0;
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  justify-content: start;
+}
+
+#imagem2{
+  margin: 0;
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  justify-content: end;
+}
